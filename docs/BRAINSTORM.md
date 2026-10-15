@@ -115,4 +115,4 @@ With his "flagship" word: s=1.0 → **859 → S**. The S_1000 path needs r→1.0
 
 ## 9. Recommendation
 
-Build **governor** (marsojuji-cmyk/governor, public, MIT): full v1 reference implementation + README/SPEC/THREAT_MODEL + CI + wiki + the subpoena-week replay demo + an internal trajectory log. Register in the watch. Report the honest 771/A day-0 score. Stage two one-word decisions for him: **"flagship"** (s→1.0, 859/S) and, when the evidence exists, the **G_1000 conferral** (his word + witness + date).
+Build **governor** (FetchDoge/governor, public, MIT): full v1 reference implementation + README/SPEC/THREAT_MODEL + CI + wiki + the subpoena-week replay demo + an internal trajectory log. Register in the watch. Report the honest 771/A day-0 score. Stage two one-word decisions for him: **"flagship"** (s→1.0, 859/S) and, when the evidence exists, the **G_1000 conferral** (his word + witness + date).
