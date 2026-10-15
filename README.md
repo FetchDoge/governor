@@ -4,7 +4,7 @@
 
 [![ci](https://github.com/FetchDoge/governor/actions/workflows/ci.yml/badge.svg)](https://github.com/FetchDoge/governor/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](pyproject.toml)
 
-> *Permit says what an agent may spend. Governor says what it may do. Interlock proves what it did.*
+> *Permit says what an agent may spend. Governor says what it may do. Interlock says for how long.*
 
 Agents can act on real systems: files, payments, APIs. Governor sits between the agent and those systems, so no action executes without a matching permit. Denied actions become receipts, not errors. The kill switch freezes an agent, a capability, or everything, and the signed forensics bundle is the evidence package for afterward.
 
@@ -87,8 +87,8 @@ Governor fails closed: every failure path returns `deny` with a reason and write
 
 ## Evidence
 
-- **27 tests pass:** `python -m unittest discover tests`, run 2026-10-07 on `main`. CI runs the same suite plus `examples/subpoena_week.py` on every push.
-- The incident replay ends with `[forensics] 4 receipts, 1 kill-switch events, chain intact: True` (run 2026-10-07).
+- **27 tests pass:** `python -m unittest discover tests`, re-run 2026-10-15 on `main` at `5c941da`. CI runs the same suite plus `examples/subpoena_week.py` on every push.
+- The incident replay ends with `[forensics] 4 receipts, 1 kill-switch events, chain intact: True` (re-run 2026-10-15).
 - The quickstart was executed on 2026-10-07. A tampered token returned `deny bad-permit:bad-signature`, a frozen agent returned `deny frozen:…`, and `ReceiptLog.verify()` returned `chain-ok`.
 
 ## Layout
