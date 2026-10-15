@@ -2,7 +2,7 @@
 
 **Governor gates every agent action on an HMAC-signed, expiring permit. It denies by default and records every decision, allow and deny, on a hash-chained receipt log.**
 
-[![ci](https://github.com/marsojuji-cmyk/governor/actions/workflows/ci.yml/badge.svg)](https://github.com/marsojuji-cmyk/governor/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](pyproject.toml)
+[![ci](https://github.com/FetchDoge/governor/actions/workflows/ci.yml/badge.svg)](https://github.com/FetchDoge/governor/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](pyproject.toml)
 
 > *Permit says what an agent may spend. Governor says what it may do. Interlock proves what it did.*
 
