@@ -65,7 +65,7 @@ Why now: demand evidence is this week's headlines (subpoenas, Astra benching, Se
 **One line:** the action governor for superintelligent agents. Permits, not trust — for *behavior*.
 
 **The stack story (the brand line):**
-> *Permit says what an agent may spend. Governor says what it may do. Interlock proves what it did.*
+> *Permit says what an agent may spend. Governor says what it may do. Interlock says for how long.*
 
 **Name rationale:** the Watt governor — a feedback device that throttles an engine before it tears itself apart. Single noun, like permit / interlock / aegis / beacon. Verb potential ("govern this agent"). Rejected: *warden* (prison connotation), *deadman* (one feature, not the system), *blastdoor* (too literal), *overwatch* (Blizzard).
 
