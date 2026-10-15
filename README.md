@@ -2,7 +2,7 @@
 
 **Governor gates every agent action on an HMAC-signed, expiring permit. It denies by default and records every decision, allow and deny, on a hash-chained receipt log.**
 
-[![ci](https://github.com/FetchDoge/governor/actions/workflows/ci.yml/badge.svg)](https://github.com/FetchDoge/governor/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](pyproject.toml)
+[![ci](https://github.com/FetchDoge/governor/actions/workflows/ci.yml/badge.svg)](https://github.com/FetchDoge/governor/actions/workflows/ci.yml) [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](pyproject.toml)
 
 > *Permit says what an agent may spend. Governor says what it may do. Interlock says for how long.*
 
@@ -76,7 +76,7 @@ Governor fails closed: every failure path returns `deny` with a reason and write
 | Edited receipt or bundle | `ReceiptLog.verify()` / `verify_bundle()` return false |
 
 **What it is not:**
-- **Not a counterparty.** An MIT repo cannot be sued, sign your SLA, or answer at 3am. This is the reference implementation, not the vendor.
+- **Not a counterparty.** An open-source repo cannot be sued, sign your SLA, or answer at 3am. This is the reference implementation, not the vendor.
 - **Not an enterprise control plane.** It does not replace your IdP, policy engine (OPA/Cedar), or workload identity (SPIFFE). It is the behavioral-permit object those systems can carry.
 - **Not coverage for an agent that bypasses the gate.** It governs actions at the chokepoint you control. An agent that never routes through the gate is ungoverned by definition.
 - **The kill switch acts between actions.** It refuses the next `attempt()` and cannot interrupt an action already executing.
@@ -114,4 +114,5 @@ Built by Marcus Richards, directing AI coding agents.
 
 ## License
 
-MIT. See [LICENSE](LICENSE). Built in Calgary.
+Copyright 2026 Marcus Richards.
+Licensed under the Apache License 2.0. See LICENSE.
