@@ -1,6 +1,6 @@
 # BRAINSTORM — the G_1000 repo test
 
-Date: 2026-10-06. Author: Ektar. Status: frame (decision procedure: frame → adversary → verify-and-call).
+Date: 2026-10-06. Status: frame (decision procedure: frame → adversary → verify-and-call).
 Claim tiers on consequential claims: **verified** / **reported** / **inferred**.
 
 ## 1. What the prompt actually asks (6 asks, 2 tensions)
@@ -9,7 +9,7 @@ Claim tiers on consequential claims: **verified** / **reported** / **inferred**.
 2. **Scan X** — find an emerging category in superintelligence.
 3. **Compare** — against 37 repos of GitHub history.
 4. **Build the product completely** — not a sketch; a shipped artifact.
-5. **On brand** — provenance-first, Ektar register, wiki rule, rank watch.
+5. **On brand** — provenance-first, plain-claims register, wiki rule, rank watch.
 6. **Serve the mission** — #1 GitHub in Calgary.
 
 **Tension A:** "create a repo *at* G_1000" vs. the fence: G is never self-awarded — it needs his word + a named, dated, verified outside witness + a landed breaker. I can build to G_1000 *spec*; I cannot confer G_1000. The fence is the point, not the obstacle: a test that lets the builder award himself god-tier proves nothing.
