@@ -110,6 +110,8 @@ SPEC.md · THREAT_MODEL.md · ROADMAP.md
 
 A v1 reference implementation with tests and CI. There is no tagged release yet; [`ROADMAP.md`](ROADMAP.md) shows where it goes next. Consequential claims in the docs carry tiers: **verified** (primary source read), **reported** (credible secondary), or **inferred** (our judgment).
 
+Built by Marcus Richards, directing AI coding agents.
+
 ## License
 
 MIT. See [LICENSE](LICENSE). Built in Calgary.
