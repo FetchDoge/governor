@@ -36,7 +36,7 @@ cover. A control that won't name its limits is a poster on a wall.
 
 ## Explicitly out of scope
 
-- **Enterprise liability.** This is an MIT reference, not a counterparty. It
+- **Enterprise liability.** This is an Apache-2.0 reference, not a counterparty. It
   cannot be sued, SLA'd, or paged. The forensics bundle is evidence *format*,
   not evidence *admissibility* — no hash function forces an insurer to accept it.
 - **The policy engines.** OPA, Cedar, SPIFFE/SPIRE do decision and identity
@@ -51,7 +51,7 @@ cover. A control that won't name its limits is a poster on a wall.
 
 ## Residual risks (named, not hidden)
 
-- **Absorption.** MIT + a coined vocabulary is a gift to whoever has
+- **Absorption.** A permissive license + a coined vocabulary is a gift to whoever has
   distribution. A funded control plane can speak this language and sell the
   hosted chokepoint. The defense is being the reference, not the moat.
 - **Enforcement-point ownership.** The parties who carry liability for a
